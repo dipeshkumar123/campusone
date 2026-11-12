@@ -1,0 +1,83 @@
+backend/pom.xml
+  s_761fd73f4cc1e6::t_bbe134a3ee99aa 1-143
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "2.2.1",
+  "base_commit_sha": "2f564a326256779893ee31bb9b0c01884c7383c3",
+  "branch": "main",
+  "prompts": {
+    "s_761fd73f4cc1e6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e31f2c818fferIf3g974eEbMQI",
+        "model": "opencode/unknown-model"
+      },
+      "human_author": "Dipesh Kumar Panjiyar <panjiyardipesh123@gmail.com>",
+      "total_additions": 1589,
+      "total_deletions": 4,
+      "accepted_lines": 1471,
+      "overriden_lines": 0
+    }
+  },
+  "sessions": {
+    "s_761fd73f4cc1e6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e31f2c818fferIf3g974eEbMQI",
+        "model": "opencode/unknown-model"
+      },
+      "human_author": "Dipesh Kumar Panjiyar <panjiyardipesh123@gmail.com>",
+      "stats": {
+        "total_additions": 1589,
+        "total_deletions": 4,
+        "accepted_lines": 1471,
+        "overriden_lines": 0,
+        "files": {
+          ".gitignore": {
+            "total_additions": 1,
+            "total_deletions": 0,
+            "accepted_lines": 0,
+            "overriden_lines": 0
+          },
+          "README.md": {
+            "total_additions": 116,
+            "total_deletions": 1,
+            "accepted_lines": 2,
+            "overriden_lines": 0
+          },
+          "backend/pom.xml": {
+            "total_additions": 143,
+            "total_deletions": 0,
+            "accepted_lines": 143,
+            "overriden_lines": 0
+          },
+          "deployment.md": {
+            "total_additions": 422,
+            "total_deletions": 0,
+            "accepted_lines": 422,
+            "overriden_lines": 0
+          },
+          "docs/TDD.md": {
+            "total_additions": 680,
+            "total_deletions": 1,
+            "accepted_lines": 679,
+            "overriden_lines": 0
+          },
+          "docs/render_tdd.py": {
+            "total_additions": 32,
+            "total_deletions": 0,
+            "accepted_lines": 32,
+            "overriden_lines": 0
+          },
+          "docs/tdd-print.css": {
+            "total_additions": 195,
+            "total_deletions": 2,
+            "accepted_lines": 193,
+            "overriden_lines": 0
+          }
+        }
+      }
+    }
+  }
+}
