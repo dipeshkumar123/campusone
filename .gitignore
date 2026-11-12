@@ -1,0 +1,35 @@
+# Java
+backend/target/
+*.class
+*.log
+
+# Node
+web/node_modules/
+web/dist/
+web/.vite/
+web/coverage/
+
+# Runtime data
+backend/data/
+*.mv.db
+*.trace.db
+data/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Submission artefacts
+submission/
+docs/TDD.html
+docs/screenshots/*.tmp.png

@@ -1,0 +1,60 @@
+server:
+  port: ${PORT:8080}
+  compression:
+    enabled: true
+    mime-types: application/json,text/css,application/javascript,text/html
+  forward-headers-strategy: framework
+
+spring:
+  application:
+    name: campusone
+  datasource:
+    url: ${DB_URL:jdbc:h2:file:./data/campusone;AUTO_SERVER=TRUE;MODE=PostgreSQL}
+    username: ${DB_USERNAME:sa}
+    password: ${DB_PASSWORD:}
+    driver-class-name: org.h2.Driver
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: Asia/Kolkata
+        format_sql: false
+  jackson:
+    time-zone: Asia/Kolkata
+    serialization:
+      write-dates-as-timestamps: false
+  h2:
+    console:
+      enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+app:
+  timezone: Asia/Kolkata
+  jwt:
+    # Leave blank in local development; a random key is generated at boot.
+    # Set APP_JWT_SECRET (32+ characters) anywhere tokens must survive restarts.
+    secret: ${APP_JWT_SECRET:}
+    ttl-minutes: ${APP_JWT_TTL_MINUTES:720}
+    issuer: campusone
+  cors:
+    origins: ${APP_CORS_ORIGINS:http://localhost:5173,http://127.0.0.1:5173}
+  seed:
+    enabled: ${APP_SEED_ENABLED:true}
+  demo:
+    admin-password: ${APP_DEMO_ADMIN_PASSWORD:Campus@2026}
+    faculty-password: ${APP_DEMO_FACULTY_PASSWORD:Faculty@2026}
+  attendance:
+    threshold-percent: 75
+    max-backfill-days: 14
