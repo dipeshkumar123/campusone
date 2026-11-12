@@ -1,0 +1,48 @@
+.gitignore
+  s_761fd73f4cc1e6::t_cbc91d828d636e 3
+  s_761fd73f4cc1e6::t_65b7e654322752 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "2.2.1",
+  "base_commit_sha": "4ea81bcf8d1b94df47a20a4d3a3b2cdacccfbbe6",
+  "branch": "main",
+  "prompts": {
+    "s_761fd73f4cc1e6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e31f2c818fferIf3g974eEbMQI",
+        "model": "opencode/unknown-model"
+      },
+      "human_author": "Dipesh Kumar Panjiyar <panjiyardipesh123@gmail.com>",
+      "total_additions": 2,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  },
+  "sessions": {
+    "s_761fd73f4cc1e6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e31f2c818fferIf3g974eEbMQI",
+        "model": "opencode/unknown-model"
+      },
+      "human_author": "Dipesh Kumar Panjiyar <panjiyardipesh123@gmail.com>",
+      "stats": {
+        "total_additions": 2,
+        "total_deletions": 0,
+        "accepted_lines": 2,
+        "overriden_lines": 0,
+        "files": {
+          ".gitignore": {
+            "total_additions": 2,
+            "total_deletions": 0,
+            "accepted_lines": 2,
+            "overriden_lines": 0
+          }
+        }
+      }
+    }
+  }
+}
