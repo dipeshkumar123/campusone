@@ -1,5 +1,6 @@
 # Java
 backend/target/
+backend/logs/
 *.class
 *.log
 
@@ -8,6 +9,7 @@ web/node_modules/
 web/dist/
 web/.vite/
 web/coverage/
+*.tsbuildinfo
 
 # Runtime data
 backend/data/
